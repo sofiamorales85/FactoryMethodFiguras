@@ -1,5 +1,7 @@
 # **Área de figuras Geométricas**
 
+
+
 ## Historial de versiones
 
 |  Versión |     Descripción  |      Autor     |   Fecha    |
@@ -86,19 +88,60 @@
 
 ![Diagrama de casos de uso](/DiagramaCasosDeUso.webp)
 
-### Caso 1
+### Caso 1: Ingresar datos
 
 |   <!-- -->      | <!-- -->                         |
 |-----------------|----------------------------------|
 |**UC-0001**      |Ingresar datos                    |
-|**Versión**      |3.0 ( 30/10/2017 )                |
+|**Versión**      |1.0 ( 25/05/2023)                 |
 |**Autores**      |Jenny Sofía Morales López         |
-|**Dependencias** |[IRQ-0001],[FRQ-0001],[FRQ-0002],[FRQ-0002],[NFR-0001]  |
+|**Dependencias** |[IRQ-0001],[FRQ-0001],[FRQ-0002],[FRQ-0002],[NFR-0001],[UC-0002]  |
 |**Descripción**  |Este caso es el happy path donde se ingresan datos correctos y muestra el área y permetro de la figura|
 |**Excepciones**  |Este proceso se cumplirá unicamente si los datos son válidos.  |
-|**Precondición** |No aplica porque es el ingreso de datos| 
+|**Precondición** |No aplica porque es el ingreso de datos|
 |**Secuencia normal**|1. Ingresa los datos para calculo del área 2. Elige la figura para calcular 3. se muestra el área y Perímetro.|
-|**Postcondición**|Se muestra el resultad del área y perímetro de la figura|
+|**Postcondición**|Se muestra el resultado del área y perímetro de la figura|
+|**Secuencia alterna**|Existen 6 flujos alternos para cada figura, al escoger ya que cada figura tiene un cálculo distinto de área y perimetro |
+|**Importancia**  |Vital                             |
+|**Urgencia**     |Inmediatamente                    |
+|**Estado**       |Validado                          |
+|**Estabilidad**  |Alta                              |
+|**Comentarios**  |                                  |
+
+## Caso 2: Validar datos
+
+|   <!-- -->      | <!-- -->                         |
+|-----------------|----------------------------------|
+|**UC-0002**      |Validar datos                     |
+|**Versión**      |1.0 ( 25/05/2023)                 |
+|**Autores**      |Jenny Sofía Morales López         |
+|**Dependencias** |[IRQ-0001],[FRQ-0001],[FRQ-0002],[FRQ-0002],[NFR-0001]  |
+|**Descripción**  |Este caso valida que sean caracteres numéricos |
+|**Excepciones**  |La excepcion de este caso es que los datos estén correctos.  |
+|**Precondición** |[UC-0001]|
+|**Secuencia normal**|1. Ingresar letras 2. Muestra error de validación.|
+|**Postcondición**|Muestra error con el mensaje de validación de datos|
+|**Secuencia alterna**|Validar campos vacíos [UC-0003]|
+|**Importancia**  |Vital                             |
+|**Urgencia**     |Inmediatamente                    |
+|**Estado**       |Validado                          |
+|**Estabilidad**  |Alta                              |
+|**Comentarios**  |                                  |
+
+## Caso 3: Validar campos vacíos
+
+|   <!-- -->      | <!-- -->                         |
+|-----------------|----------------------------------|
+|**UC-0002**      |Validar campos vacíos             |
+|**Versión**      |1.0 ( 25/05/2023)                 |
+|**Autores**      |Jenny Sofía Morales López         |
+|**Dependencias** |[IRQ-0001],[FRQ-0001],[NFR-0001]  |
+|**Descripción**  |Este caso valida que los vampos no estén vacíos|
+|**Excepciones**  |La excepción de este caso es que ingresen datos|
+|**Precondición** |[UC-0001]|
+|**Secuencia normal**|1. No ingresar datos 2. Muestra error de validación|
+|**Postcondición**|Muestra error con el mensaje de validación de campos vacíos|
+|**Secuencia alterna**|Validar datos  [UC-0002]|
 |**Importancia**  |Vital                             |
 |**Urgencia**     |Inmediatamente                    |
 |**Estado**       |Validado                          |
@@ -177,3 +220,5 @@
 |**Importancia**         | Vital                            |
 |**Urgencia**            | Inmediatamente                   |
 |**Estado**              | Validado                         |
+
+## 8. Prototipado
