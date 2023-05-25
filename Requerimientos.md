@@ -12,12 +12,12 @@
 
 ## 2. Participantes
 
-|   <!-- -->      | <!-- -->                  |
-|:----------------|---------------------------|
-|  Participante   | Jenny Sofía Morales López |
-|   Organización  | Individual                |
-|   ROL           | Product Owner/ Team       |
-|   EMAIL         | <jmoralesl15@miumg.edu.gt>|
+|   <!-- -->        | <!-- -->                  |
+|:------------------|---------------------------|
+| **Participante**  | Jenny Sofía Morales López |
+| **Organización**  | Individual                |
+| **ROL**           | Product Owner/ Team       |
+| **EMAIL**         | <jmoralesl15@miumg.edu.gt>|
 
 
 
@@ -40,8 +40,6 @@
 | **Autor**              | Jenny Sofía Morales              |
 | **Descripción**        | Programar con patrones de diseño Factory method                              |
 | **Prioridad**          | Prioridad alta                   |
-
-
 
 
 ## 4. Requisitos de información
@@ -92,18 +90,18 @@
 
 |   <!-- -->      | <!-- -->                         |
 |-----------------|----------------------------------|
-|**UC-0001**      |                                  |
+|**UC-0001**      |Ingresar datos                    |
 |**Versión**      |3.0 ( 30/10/2017 )                |
-|**Autores**      |                                  |
-|**Dependencias** |[OBJ-0001]                        |
-|**Descripción**  | El administrador puede visualizar los puntos críticos en la interfaz.|
-|**Excepciones**  |                                                                     |
-|**Precondición** |Secuencia normal 1 – El administrador maneja la interfaz de hitos -  |  
-|**Excepciones**  | -                                                                   |
-|**Postcondición**|El administrador ha visualizado todos los puntos críticos predichos por el sistema.|
-|**Importancia**  | Vital                            |
+|**Autores**      |Jenny Sofía Morales López         |
+|**Dependencias** |[IRQ-0001],[FRQ-0001],[FRQ-0002],[FRQ-0002],[NFR-0001]  |
+|**Descripción**  |Este caso es el happy path donde se ingresan datos correctos y muestra el área y permetro de la figura|
+|**Excepciones**  |Este proceso se cumplirá unicamente si los datos son válidos.  |
+|**Precondición** |No aplica porque es el ingreso de datos| 
+|**Secuencia normal**|1. Ingresa los datos para calculo del área 2. Elige la figura para calcular 3. se muestra el área y Perímetro.|
+|**Postcondición**|Se muestra el resultad del área y perímetro de la figura|
+|**Importancia**  |Vital                             |
 |**Urgencia**     |Inmediatamente                    |
-|**Estado**       | Validado                         |
+|**Estado**       |Validado                          |
 |**Estabilidad**  |Alta                              |
 |**Comentarios**  |                                  |
 
