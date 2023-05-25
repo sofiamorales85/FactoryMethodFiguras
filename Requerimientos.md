@@ -9,7 +9,7 @@ doctoc .
 |    1.0   | Versión inicial  | Jenny Morales  | 24/05/2023 |
 
 ## 1. Introdución
-### El siguiente documento describe el funcionamiento de la aplicación creada con patrones de diseño Factory Method en java, esta solución se crea de la necesidad de calcular áreas de las figuras geométricas específicas, Triángulo, Cuadrado,Rombo, Trapecio, Círculo, Rectángulo a tra vez de una GUI ingresando los datos principales como lados , radios , base y muestra el área de cada uno
+### *El siguiente documento describe el funcionamiento de la aplicación creada con patrones de diseño Factory Method en java, esta solución se crea de la necesidad de calcular áreas de las figuras geométricas específicas, Triángulo, Cuadrado,Rombo, Trapecio, Círculo, Rectángulo a tra vez de una GUI ingresando los datos principales como lados , radios , base y muestra el área de cada uno
 
 ## 2. Participantes
 
