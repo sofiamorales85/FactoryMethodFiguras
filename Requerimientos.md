@@ -1,5 +1,7 @@
 # **Área de figuras Geométricas**
 
+doctoc .
+
 ## Historial de versiones
 
 |  Versión |     Descripción  |      Autor     |   Fecha    |
