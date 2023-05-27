@@ -220,3 +220,8 @@
 |**Estado**              | Validado                         |
 
 ## 8. Prototipado
+
+
+![Diagrama de casos de uso](/calculosAreayP.PNG)
+
+![Diagrama de casos de uso](/Inicio.PNG)
