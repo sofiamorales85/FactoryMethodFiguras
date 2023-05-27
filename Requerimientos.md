@@ -1,10 +1,5 @@
 # **Área de figuras Geométricas**
 
-<<<<<<< HEAD
-
-=======
-
-
 
 ## Historial de versiones
 
