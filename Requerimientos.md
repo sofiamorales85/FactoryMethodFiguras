@@ -3,8 +3,8 @@
 <<<<<<< HEAD
 
 =======
-doctoc .
->>>>>>> f28f0e71993ae1e5b24b60fe83ade88213919f10
+
+
 
 ## Historial de versiones
 
